@@ -1,0 +1,812 @@
+/* 2) css footer.css */
+
+.footer {
+    /* font-size: 12px; */
+    border-top: 5px solid #ee0000;
+    padding-top: 40px;
+}
+
+.footer-main {}
+
+.footer-main .box-footer {}
+
+.item-footer {
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding-bottom: 10px;
+}
+
+.title-footer {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fa0902;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 2px;
+    margin-bottom: 5px;
+}
+
+.title-footer:before {
+    content: '';
+    width: 120px;
+    background-color: #333;
+    position: absolute;
+    height: 0px;
+    top: 100%;
+}
+
+.desc-footer {}
+
+.hr-red {}
+
+.link-footer {
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding-bottom: 10px;
+}
+
+.list-link {}
+
+.list-link ul li {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+.list-link li {
+    margin-bottom: 5px;
+}
+
+.list-link li a {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.list-link li a i {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.list-link li i {
+    font-weight: 900;
+    color: red;
+}
+
+.list-thongbao {
+    padding-bottom: 10px;
+}
+
+.list-thongbao ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.list-thongbao ul li {
+    margin-right: 15px;
+}
+
+.list-thongbao ul li a {}
+
+.list-thongbao ul li img {
+    width: auto;
+    max-width: 100%;
+}
+
+.desc-footer {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.desc-footer p {
+    text-align: left;
+    font-weight: 400;
+}
+
+.desc-footer p a {
+    font-weight: 400;
+}
+
+.y-image {
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.y-image img {
+    width: 100%;
+}
+
+.footer-bottom {
+    background-color: #fe0000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.box-footer-bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright{
+    display: inline-block;
+    line-height: 24px;
+    font-size: 15px;
+}
+
+.list_tag_hash{width: calc(100% - 400px);line-height: 24px;}
+
+.list_tag_hash marquee{font-size: 15px;line-height: 24px;font-weight: 400;}
+
+.list_tag_hash h1, .list_tag_hash h2, .list_tag_hash h3, .list_tag_hash h4, .list_tag_hash h5, .list_tag_hash h6, .list_tag_hash p{
+    font-size: 15px;
+    padding: 0;
+    display: inline;
+    color: #fff;
+    line-height: 24px;
+    margin: 0 10px 0 0;
+}
+
+.pt_contact_vertical {
+    position: fixed;
+    display: block;
+    bottom: 85px;
+    z-index: 100;
+    left: 25px;
+    display: none;
+}
+
+.contact-mobile .contact-item a {
+    margin-bottom: 8px;
+    display: block;
+    transition: all 0.4s ease;
+    position: relative;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.contact-mobile .contact-item a i {
+    color: #fff;
+    line-height: inherit;
+}
+
+.contact-mobile .contact-item .fb-mess {
+    background-color: #4b76bd;
+}
+
+.tel_phone {
+    border-radius: 30px;
+    line-height: 45px;
+    position: absolute;
+    height: 45px;
+    font-size: 17px;
+    text-align: center;
+    background-color: #e9242d;
+    color: white;
+    top: 28px;
+    left: 40px;
+    padding: 0;
+    font-weight: 600;
+    width: 165px;
+    overflow: hidden;
+    padding-left: 29px;
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+.quick-alo-phone:hover .tel_phone {
+    width: 165px;
+    left: 36px;
+    opacity: 1;
+}
+
+.tel_phone a {
+    margin: 0;
+    color: #fff;
+    display: block;
+    width: 135px;
+}
+@-webkit-keyframes my1 {
+    0% { background-color: #ffd100; } 
+    50% { background-color: #129049;  } 
+    100% { background-color: #ffd100;  } 
+}
+@-moz-keyframes my1 { 
+    0% { background-color: #ffd100;  } 
+    50% { background-color: #129049;  }
+    100% { background-color: #ffd100;  } 
+}
+@-o-keyframes my1 { 
+    0% { background-color: #ffd100; } 
+    50% { background-color: #129049; } 
+    100% { background-color: #ffd100;  } 
+}
+@keyframes my1 { 
+    0% { background-color: #ffd100;  } 
+    50% { background-color: #129049;  }
+    100% { background-color: #ffd100;  } 
+} 
+
+.quick-alo-phone.quick-alo-show {
+    visibility: visible;
+    /* display: none; */
+}
+
+.quick-alo-phone {
+    position: fixed;
+    visibility: hidden;
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    display: block;
+    cursor: pointer;
+    z-index: 98;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    -webkit-transition: visibility 0.5s;
+    -moz-transition: visibility 0.5s;
+    -o-transition: visibility 0.5s;
+    transition: visibility 0.5s;
+    left: -1px;
+    bottom: 6px;
+}
+
+.quick-alo-ph-circle {
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: transparent;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid rgba(30, 30, 30, 0.4);
+    border: 2px solid #3a71aa 9;
+    opacity: 0.1;
+    -webkit-animation: quick-alo-circle-anim 1.2s infinite ease-in-out;
+    -moz-animation: quick-alo-circle-anim 1.2s infinite ease-in-out;
+    -ms-animation: quick-alo-circle-anim 1.2s infinite ease-in-out;
+    -o-animation: quick-alo-circle-anim 1.2s infinite ease-in-out;
+    animation: quick-alo-circle-anim 1.2s infinite ease-in-out;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+.quick-alo-phone.quick-alo-green .quick-alo-ph-circle {
+    border-color: #e9242d;
+    opacity: 0.5;
+}
+
+.quick-alo-ph-circle-fill {
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    background-color: #000;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    opacity: 0.1;
+    -webkit-animation: quick-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    -moz-animation: quick-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    -ms-animation: quick-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    -o-animation: quick-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    animation: quick-alo-circle-fill-anim 2.3s infinite ease-in-out;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+.quick-alo-phone.quick-alo-green .quick-alo-ph-circle-fill {
+    background-color: #e9242d;
+    opacity: 0.75;
+}
+
+.quick-alo-phone.quick-alo-green .quick-alo-ph-img-circle {
+    background-color: #e9242d;
+}
+
+.quick-alo-ph-img-circle {
+    width: 50px;
+    height: 50px;
+    top: 25px;
+    left: 25px;
+    position: absolute;
+    background: rgba(30, 30, 30, 0.1) url(../images/quick-call-button.png) no-repeat center center;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 2px solid transparent;
+    -webkit-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+    -moz-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+    -ms-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+    -o-animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+    animation: quick-alo-circle-img-anim 1s infinite ease-in-out;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+.quick-alo-phone.quick-alo-green .quick-alo-ph-img-circle {
+    background-color: #e9242d;
+}
+
+
+#contact-vr {
+    transition: 1.6s all;
+    -moz-transition: 1.6s all;
+    -webkit-transition: 1.6s all;
+    margin-bottom: 190px;
+}
+
+.button-contact {
+    margin-top: -5px;
+}
+
+.phone-vr-img-circle {
+    background-color: #2196F3;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    top: 25px;
+    left: 25px;
+    position: absolute;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    -webkit-animation: phonering-alo-circle-img-anim 1s infinite ease-in-out;
+    animation: phone-vr-circle-fill 1s infinite ease-in-out;
+}
+
+.phone-vr-img-circle a {
+    display: block;
+    line-height: 37px;
+}
+
+.phone-vr-circle-fill {
+    box-shadow: 0 0 0 0 #2196f3;
+    background-color: rgba(33, 150, 243, .7);
+}
+
+#contact-vr .phone-vr-img-circle {
+    background-color: #fff!important;
+}
+
+
+/* HHH */
+
+@-webkit-keyframes phone-vr-circle-fill {
+    0% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg)
+    }
+    10% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    20% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    30% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg)
+    }
+    40% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg)
+    }
+    50% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg)
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg)
+    }
+}
+
+@-webkit-keyframes zoom {
+    0% {
+        transform: scale(.9)
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 15px transparent
+    }
+    100% {
+        transform: scale(.9);
+        box-shadow: 0 0 0 0 transparent
+    }
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(.9)
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 15px transparent
+    }
+    100% {
+        transform: scale(.9);
+        box-shadow: 0 0 0 0 transparent
+    }
+}
+
+@-moz-keyframes quick-alo-circle-anim {
+    0% {
+        transform: rotate(0) scale(0.5) skew(1deg);
+        opacity: 0.1;
+    }
+    30% {
+        transform: rotate(0) scale(0.7) skew(1deg);
+        opacity: 0.5;
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: 0.1;
+    }
+}
+
+@-webkit-keyframes quick-alo-circle-anim {
+    0% {
+        transform: rotate(0) scale(0.5) skew(1deg);
+        opacity: 0.1;
+    }
+    30% {
+        transform: rotate(0) scale(0.7) skew(1deg);
+        opacity: 0.5;
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: 0.1;
+    }
+}
+
+@-o-keyframes quick-alo-circle-anim {
+    0% {
+        transform: rotate(0) scale(0.5) skew(1deg);
+        opacity: 0.1;
+    }
+    30% {
+        transform: rotate(0) scale(0.7) skew(1deg);
+        opacity: 0.5;
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: 0.1;
+    }
+}
+
+@keyframes quick-alo-circle-anim {
+    0% {
+        transform: rotate(0) scale(0.5) skew(1deg);
+        opacity: 0.1;
+    }
+    30% {
+        transform: rotate(0) scale(0.7) skew(1deg);
+        opacity: 0.5;
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: 0.1;
+    }
+}
+
+@-moz-keyframes quick-alo-circle-fill-anim {
+    0% {
+        transform: rotate(0) scale(0.7) skew(1deg);
+        opacity: 0.2;
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: 0.2;
+    }
+    100% {
+        transform: rotate(0) scale(0.7) skew(1deg);
+        opacity: 0.2;
+    }
+}
+
+@-webkit-keyframes quick-alo-circle-fill-anim {
+    0% {
+        transform: rotate(0) scale(0.7) skew(1deg);
+        opacity: 0.2;
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: 0.2;
+    }
+    100% {
+        transform: rotate(0) scale(0.7) skew(1deg);
+        opacity: 0.2;
+    }
+}
+
+@-o-keyframes quick-alo-circle-fill-anim {
+    0% {
+        transform: rotate(0) scale(0.7) skew(1deg);
+        opacity: 0.2;
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: 0.2;
+    }
+    100% {
+        transform: rotate(0) scale(0.7) skew(1deg);
+        opacity: 0.2;
+    }
+}
+
+@keyframes quick-alo-circle-fill-anim {
+    0% {
+        transform: rotate(0) scale(0.7) skew(1deg);
+        opacity: 0.2;
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg);
+        opacity: 0.2;
+    }
+    100% {
+        transform: rotate(0) scale(0.7) skew(1deg);
+        opacity: 0.2;
+    }
+}
+
+@-moz-keyframes quick-alo-circle-img-anim {
+    0% {
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+    10% {
+        transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    20% {
+        transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    30% {
+        transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    40% {
+        transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+}
+
+@-webkit-keyframes quick-alo-circle-img-anim {
+    0% {
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+    10% {
+        transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    20% {
+        transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    30% {
+        transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    40% {
+        transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+}
+
+@-o-keyframes quick-alo-circle-img-anim {
+    0% {
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+    10% {
+        transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    20% {
+        transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    30% {
+        transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    40% {
+        transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+}
+
+@keyframes quick-alo-circle-img-anim {
+    0% {
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+    10% {
+        transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    20% {
+        transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    30% {
+        transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    40% {
+        transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    50% {
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+    100% {
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+}
+
+.button-contact {
+    position: absolute;
+    bottom: 0;
+}
+
+.button-contact .phone-vr {
+    position: relative;
+    visibility: visible;
+    background-color: transparent;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    z-index: 11;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    transition: visibility .5s;
+    left: 10px;
+    bottom: 0;
+    display: block;
+}
+
+#zalo-vr .phone-vr-circle-fill {
+    box-shadow: 0 0 0 0 #2196f3;
+    background-color: rgba(33, 150, 243, .7);
+}
+
+.phone-vr-circle-fill {
+    transition: none!important;
+}
+
+.phone-vr-circle-fill {
+    width: 65px;
+    height: 65px;
+    top: 12px;
+    left: 12px;
+    position: absolute;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    -webkit-animation: phone-vr-circle-fill 2.3s infinite ease-in-out;
+    animation: phone-vr-circle-fill 2.3s infinite ease-in-out;
+    transition: all .5s;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-animuiion: zoom 1.3s infinite;
+    animation: zoom 1.3s infinite;
+}
+
+.phone-vr-img-circle a {
+    display: block;
+    line-height: 37px;
+}
+
+.phone-vr-img-circle img {
+    max-height: 25px;
+    max-width: 27px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.contact-messeger {
+    position: fixed;
+    right: 0;
+    z-index: 999;
+    width: 100px;
+    height: 100px;
+    bottom: 5px;
+}
+
+.contact-messeger .quick-alo-phone.quick-alo-show {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.contact-messeger .messeger {}
+
+.contact-messeger .messeger img {
+    width: 100%;
+}
+
+.contact-messeger .quick-alo-phone.quick-alo-green .quick-alo-ph-img-circle {
+    background-color: #282e88;
+    background-image: url('../images/meseger.png');
+    background-size: contain;
+}
+
+.contact-messeger .quick-alo-phone.quick-alo-green .quick-alo-ph-circle {
+    border-color: #282e88;
+}
+
+.contact-messeger .quick-alo-phone.quick-alo-green .quick-alo-ph-circle-fill {
+    background-color: #282e88;
+}
+
+.back_to_top {
+    display: inline-block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+}
+
+.back_to_top a {
+    background: linear-gradient(to bottom, #f8d61b, #df9a19);
+    padding: 6.5px 10px;
+    border-radius: 50px;
+    overflow: hidden;
+    display: block;
+}
+
+.back_to_top span {
+    display: inline-block;
+    float: left;
+    line-height: 27px;
+    color: #fff;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: 0.5s;
+    width: 0;
+}
+
+.back_to_top img {
+    width: auto;
+    float: left;
+    margin-top: 3px;
+}
+
+#zalo-vr.button-contact {
+    position: fixed;
+    bottom: 100px;
+    left: 0px;
+}
+
+#contact-vr.button-contact {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
